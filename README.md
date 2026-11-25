@@ -15,6 +15,7 @@ Repositório com as atividades entregues na disciplina de **Cálculo Numérico**
 | 05 | [`05-sistemas-lineares`](05-sistemas-lineares) | Lista de exercícios de sistemas lineares e Gauss | `Atividade_4.ipynb` | Notebook |
 | 06 | [`06-interpolacao-polinomial`](06-interpolacao-polinomial) | Interpolação polinomial (Lagrange): explorar e comparar | `Atividade_Polinomio_de_Lagrange.ipynb` | Notebook |
 | 07 | [`07-erros-de-interpolacao`](07-erros-de-interpolacao) | Erros de interpolação na reconstrução da temperatura de uma barra | `Tarefa_Interpolacao_resolvida.ipynb` | Notebook |
+| Extra | [`08-atividade-extra-stencil-python`](08-atividade-extra-stencil-python) | Stencil (guia de consulta rápida) de comandos básicos de Python | `stencil_python.md` | Markdown |
 
 ---
 
@@ -90,6 +91,10 @@ Tarefa investigativa: reconstruir a temperatura de uma barra de 6 m a partir de 
 - **Etapa 3:** varredura de N = 4 a 40, com constante de Lebesgue, estabilidade numérica e tempo de construção e avaliação.
 - **Etapa 4:** efeito do ruído de medição, erro nas extremidades, interpolação contra extrapolação e estimativa do erro sem conhecer a temperatura real (validação cruzada leave-one-out).
 - **Conclusão:** recomendação técnica por situação (spline cúbica para poucos sensores; Lagrange com nós de Chebyshev para N ≥ 7 com dados exatos e perfil suave).
+
+## Extra — Stencil de Python
+
+Guia de consulta rápida com os comandos básicos de Python, em 12 tópicos, cada um com um exemplo curto de código: variáveis e tipos, entrada e saída, operadores, condicionais, laços (`for`, `while`, `break`, `continue`), estruturas de dados (lista, tupla, dicionário e conjunto), funções (incluindo `lambda`), strings, tratamento de erros (`try`/`except`/`finally`), módulos, compreensão de lista e classes. Os exemplos foram executados para conferir que funcionam. Atividade extra, não faz parte da sequência de Cálculo Numérico.
 
 ---
 
